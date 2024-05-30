@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.outer{
+    border: 2px solid none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+.sidebar{
+    border: 2px solid none;
+    height: 98vh;
+    background-color: #008080;
+    width: 27%;
+  flex: 0 0 300px;
+    position: fixed;
+    margin: 0;
+    border-radius: 0 10% 0 7%;
+}
+.heading{
+    border: 1px solid none;
+    height: 20;
+    width: 50%;
+    color: white;
+    margin-top: 15%;
+    margin-left: 20%;
+  
+    position: relative;
+}
+.heading h3{ 
+    margin-top: 12%;
+    align-items: center;  
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    flex: 0 0 20px;
+    display: inline-flex;
+    color: white;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    border: 2px solid none;
+    height: 70vh;
+    width: 35vh;
+    flex: auto;
+    left: -30%;
+    position: absolute;
+    margin-top: 30%;
+}
+.icons{
+    border: 2px solid none;
+    height: 6vh;
+    width: 90%;
+    cursor: pointer;
+    margin-left: 8%;
+    display: block;
+   margin-top: 0%;
+   flex: 0 0 300px;
+}
+/*.icons :active{
+    background-color: cadetblue;
+    color: whitesmoke;
+    height: 6vh;
+    width: 90%;
+    cursor: pointer;
+    margin-left: 8%;
+}*/
+.icons a{
+    text-decoration: none;
+}
+.icons i{
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 2%;
+    flex: 0 0 300px;
+    font-size: 18px;
+    position: absolute;
+    
+    }
+    .icons span{
+        margin-left: 30%;
+        color: whitesmoke;
+        margin-top: 2%;
+        position: absolute;
+        flex: 0 0 300px;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+        }
+.nav{
+    border: 2px solid whitesmoke;
+    height: 9vh;
+    width: 72.3%;
+ box-shadow: rgb(19, 31, 61);
+    margin-left: 27%;
+    border-radius: 12px;
+}
+.tag h3{
+    margin-top: 2%;  
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+.dashboard{
+    border: 2px solid none;
+    height: 5%;
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 1.2%;
+    position: absolute;
+}
+.dashboard i{
+    color: black;
+    margin-left: 10%;
+    margin-top: 20%; 
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 22px;
+}
+.dashboard span{
+    color: black;
+     margin-left: 10%;
+    font-size: 17px; 
+    font-family: sans-serif;
+    font-weight: 400; 
+    margin-top: -7%;
+}
+.register{
+    border: 2px solid none;
+    height: 100vh;  
+    width: 70%;
+    margin-left: 28%;
+    border-radius: 12px;
+    margin-top: 2%;
+    flex: 0 0 300px;
+ position: absolute;
+}
+.box{
+    border: 2px solid whitesmoke;
+    height: 98vh;
+    width: 97%;
+    margin-left: 3%;
+    margin-top: 1%;
+    position: absolute;
+    display: flex;
+    border-radius: 5px;
+}
+.field{
+        border: 2px solid none;
+        height: 10%;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+        position: absolute;
+        display: flex;
+}
+.field h2{
+    margin-top: 5%;  
+    margin-left: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 39%;
+    font-size: 20px;
+    color: black;
+}         
+.pro_form{
+    border: 2px solid black;
+    height: 75%;
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 12%;
+    position: absolute;
+    display: flex;
+    border-radius: 5px;
+}
